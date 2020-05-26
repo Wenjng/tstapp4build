@@ -7,6 +7,7 @@ phases:
     commands:
       - echo install a required package
       - npm install react-scripts
+      - npm install
   build:
     commands:
       - echo Build started on `date`
