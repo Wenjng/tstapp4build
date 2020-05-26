@@ -4,6 +4,9 @@ phases:
   install:
     runtime-versions:
       nodejs: 10
+     commands:
+      - echo install a required package
+      - npm install -g create-react-app
   build:
     commands:
       - echo Build started on `date`
