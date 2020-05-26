@@ -14,7 +14,7 @@ phases:
       - npm run build
   post_build:
     commands:
-      - echo Build (maybe zip build dir) completed on `date`
+      - echo Build completed on `date`
 artifacts:
   nodejs_aartifacts:
     base-directory: .
