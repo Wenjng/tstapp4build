@@ -6,7 +6,7 @@ phases:
       nodejs: 10
     commands:
       - echo install a required package
-      - npm install -g create-react-app
+      - npm install react-scripts
   build:
     commands:
       - echo Build started on `date`
